@@ -27,7 +27,7 @@ Proxmox VE 8 (hypervisor)
               └── All workloads deployed via git
 ```
 
-Everything is infrastructure-as-code: OpenTofu for VM provisioning, Ansible for configuration, Flux for Kubernetes resources. Git is the single source of truth.
+Everything is infrastructure-as-code: OpenTofu for VM provisioning, Ansible for configuration, Flux for Kubernetes resources. 
 
 ## Core Services
 
