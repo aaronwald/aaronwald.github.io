@@ -16,7 +16,7 @@ Three Minisforum mini PCs in a 3D-printed rack:
 - **1x UM760** (Ryzen 5 7640HS) - 32GB RAM, 1TB NVMe
 - **2x UM870** (Ryzen 7 8745H) - 32GB RAM, 1TB NVMe each
 
-Small, quiet, power-efficient. The yellow rack keeps them organized with a 4-port KVM switch for management and a JetKVM for remote access.
+Small, quiet, power-efficient. The yellow rack is the [Modular 10" Server Rack (MOD10)](https://www.printables.com/model/1225275-modular-10-server-rack-mod10) from Printables, with a 4-port KVM switch for management and a JetKVM for remote access.
 
 ## Stack
 
