@@ -52,31 +52,6 @@ Observability stack: Prometheus + Grafana + Loki for metrics, dashboards, and lo
 - **Cloudflare Tunnel** exposes select services publicly without port forwarding
 - **UniFi Dream Machine** as the network gateway with dedicated homelab VLAN
 
-No inbound ports opened on the router. All external access goes through Tailscale or Cloudflare tunnels.
-
-## Key Decisions
-
-**Why K3s over full K8s?** Lower resource overhead, built-in components (CoreDNS, Traefik), single binary. Perfect for homelab scale.
-
-**Why Flux over ArgoCD?** Lighter weight, pull-based GitOps, good Helm support. Works well with the "git push and walk away" workflow.
-
-**Why Pi-hole outside the cluster?** DNS is too critical to depend on the thing it's providing DNS for. Keeps infrastructure bootstrapping simple.
-
-**Why Longhorn?** Native K8s storage that just works. 3-way replication across nodes means a node can die without data loss.
-
-## Current State
-
-- ~10 HelmReleases managed by Flux
-- Brooklyn, NY backup site with Garage S3 for off-site Velero backups
-- APC UPS monitoring via Prometheus
-- Zero manual kubectl applies - everything through git
-
-## What's Next
-
-- Fourth Proxmox node for more headroom
-- Falco for runtime security monitoring
-- More automation around disaster recovery testing
-
 ---
 
 *Last updated: January 2026*
