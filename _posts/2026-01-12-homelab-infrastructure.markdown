@@ -5,7 +5,7 @@ date: 2026-01-12 00:00:00 -0500
 categories: homelab infrastructure
 ---
 
-A 3-node Kubernetes homelab. Beean meaning to post this for a while.
+A 3-node Kubernetes homelab. Been meaning to post this for a while.
 
 ![Homelab rack](/assets/images/homelab-rack.jpg)
 
