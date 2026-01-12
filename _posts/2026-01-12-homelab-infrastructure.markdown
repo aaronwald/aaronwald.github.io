@@ -54,4 +54,4 @@ Observability stack: Prometheus + Grafana + Loki for metrics, dashboards, and lo
 
 ---
 
-*Last updated: January 2026*
+*Last updated: January 2026. Written with [Claude](https://claude.ai).*
