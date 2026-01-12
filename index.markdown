@@ -5,4 +5,4 @@
 layout: home
 ---
 
-_varstat_
+_varshtat_
